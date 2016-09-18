@@ -1,19 +1,12 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <style>\n    @font-face {\n    font-family: \'Baloo Chettan\';\n    font-style: normal;\n    font-weight: 400;\n    src: local(\'Baloo Chettan\'), local(\'BalooChettan-Regular\'), url(baloochettan-latin.woff) format(\'woff\');\n    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;\n    }\n  </style>\n'], ['\n  <style>\n    @font-face {\n    font-family: \'Baloo Chettan\';\n    font-style: normal;\n    font-weight: 400;\n    src: local(\'Baloo Chettan\'), local(\'BalooChettan-Regular\'), url(baloochettan-latin.woff) format(\'woff\');\n    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;\n    }\n  </style>\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  .question {\n    font-size: 2em;\n    color: ', ';\n    padding: 5%;\n    width: 90%;\n    max-width: 1000px;\n    margin: auto;\n  }\n'], ['\n  .question {\n    font-size: 2em;\n    color: ', ';\n    padding: 5%;\n    width: 90%;\n    max-width: 1000px;\n    margin: auto;\n  }\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  <div class="', '">\n    #JAVASCRIPT <br>\n    It\'s a waste of time to learn any other language than JavaScript.\n    The future is with JS :)\n  </div>\n'], ['\n  <div class="', '">\n    #JAVASCRIPT <br>\n    It\'s a waste of time to learn any other language than JavaScript.\n    The future is with JS :)\n  </div>\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n  <div class="', '">\n    #HYPERMODULARITY <br>\n    Framework vs. hypermodular development is like planned economy vs. free market.\n  </div>\n'], ['\n  <div class="', '">\n    #HYPERMODULARITY <br>\n    Framework vs. hypermodular development is like planned economy vs. free market.\n  </div>\n']),
-    _templateObject5 = _taggedTemplateLiteral(['\n  <div class="', '">\n    #TRANSPARENCY <br>\n    Information asymmetry can best be broken by making everything transparent.\n  </div>\n'], ['\n  <div class="', '">\n    #TRANSPARENCY <br>\n    Information asymmetry can best be broken by making everything transparent.\n  </div>\n']),
-    _templateObject6 = _taggedTemplateLiteral(['\n  <div class="', '">\n    #AUTOMATION <br>\n    Programming is the new literacy, everyone should learn it. All other jobs\n    will be automated.\n  </div>\n'], ['\n  <div class="', '">\n    #AUTOMATION <br>\n    Programming is the new literacy, everyone should learn it. All other jobs\n    will be automated.\n  </div>\n']),
-    _templateObject7 = _taggedTemplateLiteral(['\n  <div class="', '">\n    #SELF EMPLOYMENT <br>\n    Employment is for kids. Grown ups are self employed.\n  </div>\n'], ['\n  <div class="', '">\n    #SELF EMPLOYMENT <br>\n    Employment is for kids. Grown ups are self employed.\n  </div>\n']),
-    _templateObject8 = _taggedTemplateLiteral(['\n<div class="', '">\n  #VR <br>\n  With VR all the jobs will be remote. On-site gatherings will be for fun.\n</div>\n'], ['\n<div class="', '">\n  #VR <br>\n  With VR all the jobs will be remote. On-site gatherings will be for fun.\n</div>\n']),
-    _templateObject9 = _taggedTemplateLiteral(['\n    .quiz {\n      background-color: ', ';\n      text-align: center;\n      font-family: ', ';\n      padding-bottom: 200px;\n    }\n    .welcome {\n      font-size: 4em;\n      padding: 3%;\n      color: ', '\n    }\n    .answers {\n      display: flex;\n      justify-content: center;\n      flex-wrap: wrap;\n      margin: 0 5%;\n    }\n    .answer {\n      font-size: 1em;\n      background-color: ', ';\n      padding: 5%;\n      margin: 1%;\n      border: 2px solid ', ';\n      border-radius: 30%;\n    }\n    .instruction {\n      color: ', ';\n      font-size: 1.5em;\n      margin: 0 15%;\n      padding: 20px;\n    }\n    .results {\n      background-color: ', ';\n      text-align: center;\n      font-family: ', ';\n      padding-bottom: 200px;\n    }\n    .resultTitle{\n      font-size: 4em;\n      padding: 5% 5% 0 5%;\n      color: ', '\n    }\n    .back {\n      display: flex;\n      justify-content: center;\n    }\n    .backImg {\n      height: 30px;\n      padding: 5px;\n    }\n    .backText {\n      color: ', ';\n      font-size: 25px;\n    }\n    .showChart {\n      font-size: 2em;\n      color: ', ';\n      margin: 5%;\n    }\n    .showChart:hover {\n      color: ', ';\n      cursor: pointer;\n    }\n    .myChart {\n      width: 100%;\n      height: 100%;\n    }\n    @media only screen and (max-width: 700px) {\n      body {\n        font-size:75%;\n      }\n    }\n    @media only screen and (max-width: 400px) {\n      body {\n        font-size:50%;\n      }\n    }\n  '], ['\n    .quiz {\n      background-color: ', ';\n      text-align: center;\n      font-family: ', ';\n      padding-bottom: 200px;\n    }\n    .welcome {\n      font-size: 4em;\n      padding: 3%;\n      color: ', '\n    }\n    .answers {\n      display: flex;\n      justify-content: center;\n      flex-wrap: wrap;\n      margin: 0 5%;\n    }\n    .answer {\n      font-size: 1em;\n      background-color: ', ';\n      padding: 5%;\n      margin: 1%;\n      border: 2px solid ', ';\n      border-radius: 30%;\n    }\n    .instruction {\n      color: ', ';\n      font-size: 1.5em;\n      margin: 0 15%;\n      padding: 20px;\n    }\n    .results {\n      background-color: ', ';\n      text-align: center;\n      font-family: ', ';\n      padding-bottom: 200px;\n    }\n    .resultTitle{\n      font-size: 4em;\n      padding: 5% 5% 0 5%;\n      color: ', '\n    }\n    .back {\n      display: flex;\n      justify-content: center;\n    }\n    .backImg {\n      height: 30px;\n      padding: 5px;\n    }\n    .backText {\n      color: ', ';\n      font-size: 25px;\n    }\n    .showChart {\n      font-size: 2em;\n      color: ', ';\n      margin: 5%;\n    }\n    .showChart:hover {\n      color: ', ';\n      cursor: pointer;\n    }\n    .myChart {\n      width: 100%;\n      height: 100%;\n    }\n    @media only screen and (max-width: 700px) {\n      body {\n        font-size:75%;\n      }\n    }\n    @media only screen and (max-width: 400px) {\n      body {\n        font-size:50%;\n      }\n    }\n  ']),
-    _templateObject10 = _taggedTemplateLiteral(['\n      <div class="', '">\n        <div class="', '">\n          Poll for hackers\n        </div>\n        ', '\n        <div class="', '">\n          ', '\n        </div>\n        <div class="', '">\n          Choose how strongly do you agree with the statement<br>\n          (1 - no way, 6 - totally)\n        </div>\n           <div class="', '" onclick=', '>\n           <img src="http://i.imgur.com/L6kXXEi.png" class="', '">\n           <div class="', '">Back</div>\n        </div>\n      </div>\n    '], ['\n      <div class="', '">\n        <div class="', '">\n          Poll for hackers\n        </div>\n        ', '\n        <div class="', '">\n          ', '\n        </div>\n        <div class="', '">\n          Choose how strongly do you agree with the statement<br>\n          (1 - no way, 6 - totally)\n        </div>\n           <div class="', '" onclick=', '>\n           <img src="http://i.imgur.com/L6kXXEi.png" class="', '">\n           <div class="', '">Back</div>\n        </div>\n      </div>\n    ']),
-    _templateObject11 = _taggedTemplateLiteral(['<div class="', '" onclick=', '>', '</div>'], ['<div class="', '" onclick=', '>', '</div>']),
-    _templateObject12 = _taggedTemplateLiteral(['<canvas class="', '  style="width=\'100px;\' height=\'100px;\'"></canvas>'], ['<canvas class="', '  style="width=\'100px;\' height=\'100px;\'"></canvas>']),
-    _templateObject13 = _taggedTemplateLiteral(['\n    <div class="', '">\n      <div class="', '">\n        Compare your answers\n      </div>\n      <div class="', '" onclick=', '>\n        Click to see the chart\n      </div>\n      ', '\n    </div>\n  '], ['\n    <div class="', '">\n      <div class="', '">\n        Compare your answers\n      </div>\n      <div class="', '" onclick=', '>\n        Click to see the chart\n      </div>\n      ', '\n    </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <style>\n  @font-face {\n    font-family: \'Baloo Chettan\';\n    font-style: normal;\n    font-weight: 400;\n    src: local(\'Baloo Chettan\'), local(\'BalooChettan-Regular\'), url(baloochettan-latin.woff) format(\'woff\');\n    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;\n    }\n  </style>\n'], ['\n  <style>\n  @font-face {\n    font-family: \'Baloo Chettan\';\n    font-style: normal;\n    font-weight: 400;\n    src: local(\'Baloo Chettan\'), local(\'BalooChettan-Regular\'), url(baloochettan-latin.woff) format(\'woff\');\n    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;\n    }\n  </style>\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    .quiz {\n      touch-action: manipulation;\n      background-color: ', ';\n      text-align: center;\n      font-family: ', ';\n      padding-bottom: 150px;\n    }\n    .welcome {\n      display: flex;\n      align-self: center;\n      text-transform: uppercase;\n      font-size: 4em;\n      padding: 15% 15% 3% 15%;\n      color: ', '\n    }\n    .question {\n      font-size: 2em;\n      color: ', ';\n      padding: 5%;\n      width: 90%;\n      max-width: 1000px;\n      margin: auto;\n    }\n    .answers {\n      display: flex;\n      justify-content: center;\n      flex-wrap: wrap;\n      margin: 0 5%;\n    }\n    .answer {\n      font-size: 2em;\n      font-color: ', '\n      background-color: ', ';\n      padding: 5%;\n      margin: 1%;\n      border: 2px solid ', ';\n      border-radius: 30%;\n    }\n    .answer:hover {\n      opacity: 0.6;\n    }\n    .instruction {\n      color: ', ';\n      font-size: 1.5em;\n      margin: 0 15%;\n      padding: 10px;\n    }\n    .results {\n      touch-action: manipulation;\n      background-color: ', ';\n      text-align: center;\n      font-family: ', ';\n      padding: 15% 3% 40% 3%;\n    }\n    .resultTitle{\n      font-size: 4em;\n      padding: 5% 5% 0 5%;\n      color: ', '\n    }\n    .back {\n      margin-top: 30px;\n      display: flex;\n      justify-content: center;\n    }\n    .backImg {\n      height: 30px;\n      padding: 5px;\n    }\n    .backText {\n      padding-top: 5px;\n      color: ', ';\n      font-size: 25px;\n    }\n    .chooseChartOrPlayAgain {\n      display: flex;\n      justify-content: center;\n      flex-wrap: wrap;\n    }\n    .showChart, .playAgain {\n      background-color: ', ';\n      padding: 2%;\n      border: 3px solid ', ';\n      border-radius: 5%;\n      font-size: 2em;\n      color: ', ';\n      margin: 5%;\n    }\n    .myChart {\n      width: 100%;\n      height: 100%;\n    }\n    @media only screen and (max-width: 700px) {\n      body {\n        font-size:75%;\n      }\n    }\n    @media only screen and (max-width: 400px) {\n      body {\n        font-size:50%;\n      }\n    }\n  '], ['\n    .quiz {\n      touch-action: manipulation;\n      background-color: ', ';\n      text-align: center;\n      font-family: ', ';\n      padding-bottom: 150px;\n    }\n    .welcome {\n      display: flex;\n      align-self: center;\n      text-transform: uppercase;\n      font-size: 4em;\n      padding: 15% 15% 3% 15%;\n      color: ', '\n    }\n    .question {\n      font-size: 2em;\n      color: ', ';\n      padding: 5%;\n      width: 90%;\n      max-width: 1000px;\n      margin: auto;\n    }\n    .answers {\n      display: flex;\n      justify-content: center;\n      flex-wrap: wrap;\n      margin: 0 5%;\n    }\n    .answer {\n      font-size: 2em;\n      font-color: ', '\n      background-color: ', ';\n      padding: 5%;\n      margin: 1%;\n      border: 2px solid ', ';\n      border-radius: 30%;\n    }\n    .answer:hover {\n      opacity: 0.6;\n    }\n    .instruction {\n      color: ', ';\n      font-size: 1.5em;\n      margin: 0 15%;\n      padding: 10px;\n    }\n    .results {\n      touch-action: manipulation;\n      background-color: ', ';\n      text-align: center;\n      font-family: ', ';\n      padding: 15% 3% 40% 3%;\n    }\n    .resultTitle{\n      font-size: 4em;\n      padding: 5% 5% 0 5%;\n      color: ', '\n    }\n    .back {\n      margin-top: 30px;\n      display: flex;\n      justify-content: center;\n    }\n    .backImg {\n      height: 30px;\n      padding: 5px;\n    }\n    .backText {\n      padding-top: 5px;\n      color: ', ';\n      font-size: 25px;\n    }\n    .chooseChartOrPlayAgain {\n      display: flex;\n      justify-content: center;\n      flex-wrap: wrap;\n    }\n    .showChart, .playAgain {\n      background-color: ', ';\n      padding: 2%;\n      border: 3px solid ', ';\n      border-radius: 5%;\n      font-size: 2em;\n      color: ', ';\n      margin: 5%;\n    }\n    .myChart {\n      width: 100%;\n      height: 100%;\n    }\n    @media only screen and (max-width: 700px) {\n      body {\n        font-size:75%;\n      }\n    }\n    @media only screen and (max-width: 400px) {\n      body {\n        font-size:50%;\n      }\n    }\n  ']),
+    _templateObject3 = _taggedTemplateLiteral(['\n      <div class="', '">\n        <div class="', '">\n          What type of JavaScript hacker are you?\n        </div>\n        <div class="', '">\n          ', '\n        </div>\n        <div class="', '">\n          ', '\n        </div>\n        <div class="', '">\n          Choose how strongly do you agree with the statement<br>\n          (1 - no way, 6 - totally)\n        </div>\n        <div class="', '" onclick=', '>\n           <img src="http://i.imgur.com/L6kXXEi.png" class="', '">\n           <div class="', '">Back</div>\n        </div>\n      </div>\n    '], ['\n      <div class="', '">\n        <div class="', '">\n          What type of JavaScript hacker are you?\n        </div>\n        <div class="', '">\n          ', '\n        </div>\n        <div class="', '">\n          ', '\n        </div>\n        <div class="', '">\n          Choose how strongly do you agree with the statement<br>\n          (1 - no way, 6 - totally)\n        </div>\n        <div class="', '" onclick=', '>\n           <img src="http://i.imgur.com/L6kXXEi.png" class="', '">\n           <div class="', '">Back</div>\n        </div>\n      </div>\n    ']),
+    _templateObject4 = _taggedTemplateLiteral(['<div class="', '" onclick=', '>', '</div>'], ['<div class="', '" onclick=', '>', '</div>']),
+    _templateObject5 = _taggedTemplateLiteral(['<canvas class="', '  style="width=\'100px;\' height=\'100px;\'"></canvas>'], ['<canvas class="', '  style="width=\'100px;\' height=\'100px;\'"></canvas>']),
+    _templateObject6 = _taggedTemplateLiteral(['\n    <div class="', '">\n      <div class="', '" onclick=', '>\n        Yay, awesome!\n      </div>\n      <div class="', '">\n        <div class="', '" onclick=', '>\n          Show results\n        </div>\n        <div class="', '" onclick=', '>Play again</div>\n      </div>\n        ', '\n    </div>\n  '], ['\n    <div class="', '">\n      <div class="', '" onclick=', '>\n        Yay, awesome!\n      </div>\n      <div class="', '">\n        <div class="', '" onclick=', '>\n          Show results\n        </div>\n        <div class="', '" onclick=', '>Play again</div>\n      </div>\n        ', '\n    </div>\n  ']);
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
@@ -36,14 +29,14 @@ var darkBrown = 'hsla(13,19%,45%,1)';
 /*-----------------------------------------------------------------------------
   LOADING FONT
 -----------------------------------------------------------------------------*/
-// https://fonts.google.com/selection?selection.family=Baloo+Chettan
+//https://fonts.google.com/?query=baloo&selection.family=Baloo+Chettan
 var font = yo(_templateObject);
 document.head.appendChild(font);
 /*-----------------------------------------------------------------------------
 LOADING DATA
 -----------------------------------------------------------------------------*/
-var css = csjs(_templateObject2, white);
-var questions = [yo(_templateObject3, css.question), yo(_templateObject4, css.question), yo(_templateObject5, css.question), yo(_templateObject6, css.question), yo(_templateObject7, css.question), yo(_templateObject8, css.question)];
+
+var questions = ['\n      It\'s a waste of time to learn any other language than #JavaScript.\n      The future is with JS :)\n  ', '\n      Framework vs. #hypermodular development is like planned economy vs. free market.\n  ', '\n      Information asymmetry can best be broken by making everything #transparent.\n  ', '\n      Programming is the new literacy, everyone should learn it. All other jobs\n      will be #automated.\n  ', '\n      Employment is for kids. Grown ups are #self-employed.\n  ', '\n    With #VR all the jobs will be remote. On-site gatherings will be for fun.\n  '];
 var i = 0;
 var question = questions[i];
 var results = [];
@@ -52,11 +45,11 @@ var answerOptions = [1, 2, 3, 4, 5, 6];
   QUIZ
 -----------------------------------------------------------------------------*/
 function quizComponent() {
-  var css = csjs(_templateObject9, yellow, FONT, darkBrown, violet, white, violet, white, FONT, darkBrown, white, violet, yellow);
+  var css = csjs(_templateObject2, yellow, FONT, darkBrown, white, darkBrown, white, darkBrown, darkBrown, white, FONT, darkBrown, white, white, darkBrown, violet);
 
   function template() {
-    return yo(_templateObject10, css.quiz, css.welcome, question, css.answers, answerOptions.map(function (x) {
-      return yo(_templateObject11, css.answer, nextQuestion(x), x);
+    return yo(_templateObject3, css.quiz, css.welcome, css.question, question, css.answers, answerOptions.map(function (x) {
+      return yo(_templateObject4, css.answer, nextQuestion(x), x);
     }), css.instruction, css.back, back, css.backImg, css.backText);
   }
   var element = template();
@@ -78,20 +71,28 @@ function quizComponent() {
       }
     };
   }
-
+  var state = 0;
   function seeResults(data) {
-    var ctx = yo(_templateObject12, css.myChart);
-    return yo(_templateObject13, css.results, css.resultTitle, css.showChart, function () {
+    var ctx = yo(_templateObject5, css.myChart);
+    return yo(_templateObject6, css.results, css.resultTitle, function () {
       createChart(ctx, data);
-    }, ctx);
+    }, css.chooseChartOrPlayAgain, css.showChart, function () {
+      createChart(ctx, data);
+    }, css.playAgain, playAgain, ctx);
+  }
+
+  function playAgain() {
+    i = 0;
+    question = questions[i];
+    yo.update(element, template());
   }
 
   function back() {
     if (i > 0) {
       i = i - 1;
-      question = questions[i];
-      yo.update(element, template());
     }
+    question = questions[i];
+    yo.update(element, template());
   }
 
   function sendData(results) {
@@ -118,7 +119,7 @@ function quizComponent() {
         return newResult;
       }, myData);
       var data = {
-        labels: ["JAVASCRIPT", "HYPERMODULARITY", "TRANSPARENCY", "AUTOMATION", "SELFEMPLOYMENT", "VR"],
+        labels: ["JAVASCRIPT", "HYPERMODULARITY", "TRANSPARENCY", "AUTOMATION", "SELF-EMPLOYMENT", "VR"],
         datasets: [{
           label: "My statments",
           backgroundColor: "rgba(179,181,198,0.2)",
